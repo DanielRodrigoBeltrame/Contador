@@ -1,0 +1,39 @@
+body{
+    background-color: blue;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    color:coral;
+    justify-content: center;
+}   
+.contador{
+    background-color: cornsilk;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 10px black ;
+    border-radius: 8px 8px 8px 8px;
+    margin-top: 20 px;
+}
+button{
+    background-color: blue;
+    color: azure;
+    margin: 15px 0px 15px 0px;
+    padding: 8px 15px 8px 15px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 8px;
+    text-align: center;
+}
+.number{
+border: 5px solid blue;
+padding: 15px 15px;
+}
+#menos{
+    background-color: red;
+    border-color: red;
+}
