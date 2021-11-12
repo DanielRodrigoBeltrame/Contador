@@ -1,15 +1,22 @@
 body{
-    background-color: blue;   
+    background-color: rgb(245, 245, 245);   
     display: flex;
     justify-content: center;
+    flex-direction: column;
     align-items: center;
+}
+#lista{
+    justify-content:right;
+    color: blue;
+    margin: 0px 0px 0px 10px;
+    
 }
 h1{
     color:coral;
     justify-content: center;
 }   
 .contador{
-    background-color: cornsilk;
+    background-color: rgb(136, 135, 130);
     width: 600px;
     display: flex;
     flex-direction: column;
@@ -25,15 +32,32 @@ button{
     margin: 15px 0px 15px 0px;
     padding: 8px 15px 8px 15px;
     width: 100px;
-    border: 2px solid black;
+    border: 1px solid rgb(15, 15, 15);
     border-radius: 8px;
     text-align: center;
-}
+    }
 .number{
-border: 5px solid blue;
-padding: 15px 15px;
+    border: 5px solid rgb(27, 27, 37);
+    padding: 15px 15px;
+    border-radius: 8px;
 }
 #menos{
     background-color: red;
-    border-color: red;
+    
+   
+}
+.lista{
+    background-color: rgb(107, 103, 103);
+    width: 600px;
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    box-shadow: 5px 5px 10px black ;
+    border-radius: 8px 8px 8px 8px;
+    margin-top: 50px;
+    text-align: left;
+    padding: 20px 0px 0px 0px;
+
 }
