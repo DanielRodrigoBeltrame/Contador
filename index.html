@@ -6,28 +6,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contador</title>
     <link rel="stylesheet" href="style.css"></link>
+
 </head>
 <body>
- 
-    <div class="contador" > 
+    
+
+    <div class="container" > 
+
         <h1>Contador</h1>
         
-        <div class="number">
-            <p id="data" >0</p>
+        <div class="display">
+    
+            <div>
+                <button id="mais" onclick="somar()" >+</button>
+            </div>
+
+            <div class="number">
+                <p id="data" >0</p>
+            </div>
+
+            <div>
+                <button id="menos" onclick="diminuir()">-</button>
+            </div>
+
         </div>
+            
         <div class="button" >
-            <button onclick="somar()" >Mais</button>
-            <button id="menos" onclick="diminuir()">Menos</button>
+
             <button onclick="reset()">Resetar</button>
             <button onclick="incluir()">Incluir</button>
+
         </div>
+
+
     </div>
+
+
+
     <div class="lista">
+
+        <h1 id="lista2">Lista</h1>
             <ul>
-                <h1 id="lista1">Primeiro</h1><br>
-                <h1 id="lista2">Segundo</h1>
+                <h1 id="lista1">-</h1><br>
             </ul>
+            <button onclick="novo()">Novo</button>
     </div>
+
     <script src="script.js"></script>
 
 </body>

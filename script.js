@@ -25,3 +25,10 @@ function incluir(){
     data.innerText = 0
 }
 
+function novo (){
+    let lista = parseInt(lista1.innerText)
+
+    lista1.innerText= "-"
+    data.innerText = 0
+}
+
