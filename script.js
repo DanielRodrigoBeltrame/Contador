@@ -1,19 +1,18 @@
 const data=document.getElementById("data")
+let number=parseInt(data.innerText)
+
 
 function somar() {
-    let number=parseInt(data.innerText)
     number++
     data.innerText = number
+    console.log(p.innerText)
 }
 
 function diminuir(){
-    let number = parseInt(data.innerText)
-    number--
-    data.innerText = number
+    data.innerText = --number
 }
 
 function reset(){
-    let number = parseInt(data.innerText)
     number = 0
     data.innerText = number
 }
