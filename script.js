@@ -1,12 +1,14 @@
 
 //estado da aplicação
+
+//posso usar queryselector (# para informar que é ID)
 const data=document.getElementById("data")
 let number=parseInt(data.innerText)
 
 
 //alteradores de estado da aplicação
 function somar() {
-    number++
+    ++number
     render()
     
 }

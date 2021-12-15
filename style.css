@@ -6,12 +6,7 @@ body{
     flex-direction: column;
     align-items: center;
 }
-#lista{
-    justify-content:right;
-    color: blue;
-    margin: 0px 0px 0px 10px;
-    
-}
+
 h1{
     color:rgb(59, 59, 59);
     justify-content: center;
@@ -123,6 +118,19 @@ button{
     padding: 20px 0px 0px 0px;
 
 }
+#lista{
+    justify-content:right;
+    color: rgb(59, 59, 59);
+    margin: 8px 48px;
+ 
+}
+
+#lista1{
+    justify-content:right;
+    color: rgb(59, 59, 59);
+    margin: 0px 0px 0px 56px;
+
+}
 
 #zerar:hover{
 
@@ -144,3 +152,8 @@ button{
     
 }
 
+#novo{
+
+    margin: 32px 48px;
+
+}
