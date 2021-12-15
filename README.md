@@ -1,2 +1,2 @@
 # Contador
-https://contador-danielr.netlify.app
+[go](https://contador-danielr.netlify.app){:target="_blank"}.
