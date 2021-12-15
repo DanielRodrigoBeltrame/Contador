@@ -1,15 +1,19 @@
+
+//estado da aplicação
 const data=document.getElementById("data")
 let number=parseInt(data.innerText)
 
 
+//alteradores de estado da aplicação
 function somar() {
     number++
-    data.innerText = number
-    console.log(p.innerText)
+    render()
+    
 }
 
 function diminuir(){
-    data.innerText = --number
+    --number
+    render()
 }
 
 function reset(){
@@ -18,16 +22,25 @@ function reset(){
 }
 
 function incluir(){
-    let number = parseInt(data.innerText)
-
-    lista1.innerText=number
-    data.innerText = 0
+   
+    lista1.innerText = number
+    number = 0
+    data.innerText = number
 }
 
 function novo (){
     let lista = parseInt(lista1.innerText)
 
     lista1.innerText= "-"
-    data.innerText = 0
+    number = 0
+    data.innerText = number
 }
 
+//jogar o testo da aplicação na tela
+
+function render(){
+
+    data.innerText = number 
+}
+
+render ()
