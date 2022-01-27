@@ -38,7 +38,7 @@ function novo (){
     data.innerText = number
 }
 
-//jogar o testo da aplicação na tela
+//jogar o texto da aplicação na tela
 
 function render(){
 
